@@ -1,0 +1,80 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Copperplate, Papyrus, fantasy;
+    scroll-behavior: smooth;
+}
+
+.logo {
+    height: 5px;
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-left: 20px;
+    font-family: Lucida Handwriting;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid white;
+    background-color:cadetblue;
+    padding: 10px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+.nav-links a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* Scroll Effect */
+.scrolled {
+    background: #474747;
+    padding: 10px 0;
+}
+
+/* Sections */
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+/* Different Section Backgrounds */
+#home {
+    background-color: rgb(20, 107, 136)
+}
+#about { 
+    background-color: cadetblue;
+}
+#menu {
+    background-color: rgb(99, 160, 213);
+}
+#contact {
+    background-color: rgb(70, 182, 169);
+}
